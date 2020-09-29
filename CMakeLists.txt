@@ -69,5 +69,5 @@ ELSEIF(CMAKE_SYSTEM_NAME MATCHES "Linux")
     link_directories(${FFMPEG_LIBRARY_DIR} ${FFMPEG_LIBRARY_DIR}/libswresample ${FFMPEG_LIBRARY_DIR}/libavutil ${FFMPEG_LIBRARY_DIR}/libavcodec ${FFMPEG_LIBRARY_DIR}/libavformat)
 
     add_executable(${ExecuteName} src/play.h src/play.cpp src/ffmpeg_header.h src/packetqueue.h src/packetqueue.cpp src/videocode.cpp src/videocode.h src/framequeue.h src/framequeue.cpp src/IHandAudio.h)
-    target_link_libraries(${ExecuteName} avformat avcodec avutil swresample swscale SDL2 SDL2main vdpau X11 z m va va-drm va-x11)
+    target_link_libraries(${ExecuteName} avformat avcodec avutil swresample swscale SDL2 SDL2main vdpau X11 z m va va-drm va-x11 mp3lame)
 ENDIF()

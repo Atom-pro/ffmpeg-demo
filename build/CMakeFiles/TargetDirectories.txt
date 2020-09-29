@@ -1,3 +1,0 @@
-/media/psf/Home/Desktop/ffmpeg-test/build/CMakeFiles/edit_cache.dir
-/media/psf/Home/Desktop/ffmpeg-test/build/CMakeFiles/rebuild_cache.dir
-/media/psf/Home/Desktop/ffmpeg-test/build/CMakeFiles/demo.dir
