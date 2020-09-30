@@ -1,3 +1,0 @@
-/Users/lilinchao/Desktop/ffmpeg-test/mac/CMakeFiles/rebuild_cache.dir
-/Users/lilinchao/Desktop/ffmpeg-test/mac/CMakeFiles/edit_cache.dir
-/Users/lilinchao/Desktop/ffmpeg-test/mac/CMakeFiles/demo.dir

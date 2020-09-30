@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/lilinchao/Desktop/ffmpeg-test
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/lilinchao/Desktop/ffmpeg-demo
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug
+-- Build files have been written to: /Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug

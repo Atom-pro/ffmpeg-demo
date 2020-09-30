@@ -163,7 +163,6 @@ CMakeFiles/demo.dir/src/packetqueue.cpp.o: /usr/local/include/libswresample/swre
 CMakeFiles/demo.dir/src/packetqueue.cpp.o: /usr/local/include/libswresample/version.h
 CMakeFiles/demo.dir/src/packetqueue.cpp.o: /usr/local/include/libswscale/swscale.h
 
-CMakeFiles/demo.dir/src/play.cpp.o: ../src/IHandAudio.h
 CMakeFiles/demo.dir/src/play.cpp.o: ../src/ffmpeg_header.h
 CMakeFiles/demo.dir/src/play.cpp.o: ../src/framequeue.h
 CMakeFiles/demo.dir/src/play.cpp.o: ../src/packetqueue.h
@@ -248,10 +247,10 @@ CMakeFiles/demo.dir/src/play.cpp.o: /usr/local/include/libswresample/swresample.
 CMakeFiles/demo.dir/src/play.cpp.o: /usr/local/include/libswresample/version.h
 CMakeFiles/demo.dir/src/play.cpp.o: /usr/local/include/libswscale/swscale.h
 
-CMakeFiles/demo.dir/src/videocode.cpp.o: ../src/IHandAudio.h
 CMakeFiles/demo.dir/src/videocode.cpp.o: ../src/ffmpeg_header.h
 CMakeFiles/demo.dir/src/videocode.cpp.o: ../src/framequeue.h
 CMakeFiles/demo.dir/src/videocode.cpp.o: ../src/packetqueue.h
+CMakeFiles/demo.dir/src/videocode.cpp.o: ../src/play.h
 CMakeFiles/demo.dir/src/videocode.cpp.o: ../src/videocode.cpp
 CMakeFiles/demo.dir/src/videocode.cpp.o: ../src/videocode.h
 CMakeFiles/demo.dir/src/videocode.cpp.o: /usr/local/include/SDL2/SDL.h

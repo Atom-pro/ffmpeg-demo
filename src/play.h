@@ -14,8 +14,7 @@
 #include <execinfo.h>
 
 class AudioState
-        : public std::enable_shared_from_this<AudioState>
-        , public IHandAudio{
+        : public std::enable_shared_from_this<AudioState>{
 public:
     AudioState();
     ~AudioState();
@@ -32,7 +31,7 @@ public:
     static int select_channel_layout(const AVCodec *codec);
     static int check_sample_fmt(const AVCodec *codec, enum AVSampleFormat sample_fmt);
     void setaudioclock(double clock);
-    double getAudioClock() override ;
+    double getAudioClock();
 public:
     static std::shared_ptr<AudioState> mInstance;
     std::thread th1;

@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/lilinchao/Desktop/ffmpeg-test/src/IHandAudio.h
-
-/Users/lilinchao/Desktop/ffmpeg-test/src/ffmpeg_header.h
+/Users/lilinchao/Desktop/ffmpeg-demo/src/ffmpeg_header.h
 libavformat/avformat.h
 -
 libavcodec/avcodec.h
@@ -30,13 +28,9 @@ SDL2/SDL.h
 SDL2/SDL_main.h
 -
 
-/Users/lilinchao/Desktop/ffmpeg-test/src/framequeue.cpp
-framequeue.h
-/Users/lilinchao/Desktop/ffmpeg-test/src/framequeue.h
-
-/Users/lilinchao/Desktop/ffmpeg-test/src/framequeue.h
+/Users/lilinchao/Desktop/ffmpeg-demo/src/framequeue.h
 ffmpeg_header.h
-/Users/lilinchao/Desktop/ffmpeg-test/src/ffmpeg_header.h
+/Users/lilinchao/Desktop/ffmpeg-demo/src/ffmpeg_header.h
 iostream
 -
 queue
@@ -46,13 +40,9 @@ mutex
 condition_variable
 -
 
-/Users/lilinchao/Desktop/ffmpeg-test/src/packetqueue.cpp
-packetqueue.h
-/Users/lilinchao/Desktop/ffmpeg-test/src/packetqueue.h
-
-/Users/lilinchao/Desktop/ffmpeg-test/src/packetqueue.h
+/Users/lilinchao/Desktop/ffmpeg-demo/src/packetqueue.h
 ffmpeg_header.h
-/Users/lilinchao/Desktop/ffmpeg-test/src/ffmpeg_header.h
+/Users/lilinchao/Desktop/ffmpeg-demo/src/ffmpeg_header.h
 iostream
 -
 queue
@@ -62,11 +52,11 @@ mutex
 condition_variable
 -
 
-/Users/lilinchao/Desktop/ffmpeg-test/src/play.cpp
+/Users/lilinchao/Desktop/ffmpeg-demo/src/play.cpp
 play.h
-/Users/lilinchao/Desktop/ffmpeg-test/src/play.h
+/Users/lilinchao/Desktop/ffmpeg-demo/src/play.h
 
-/Users/lilinchao/Desktop/ffmpeg-test/src/play.h
+/Users/lilinchao/Desktop/ffmpeg-demo/src/play.h
 iostream
 -
 thread
@@ -80,7 +70,7 @@ sys/time.h
 condition_variable
 -
 videocode.h
-/Users/lilinchao/Desktop/ffmpeg-test/src/videocode.h
+/Users/lilinchao/Desktop/ffmpeg-demo/src/videocode.h
 string.h
 -
 signal.h
@@ -88,23 +78,17 @@ signal.h
 execinfo.h
 -
 
-/Users/lilinchao/Desktop/ffmpeg-test/src/videocode.cpp
-videocode.h
-/Users/lilinchao/Desktop/ffmpeg-test/src/videocode.h
-
-/Users/lilinchao/Desktop/ffmpeg-test/src/videocode.h
+/Users/lilinchao/Desktop/ffmpeg-demo/src/videocode.h
 iostream
 -
 thread
 -
 packetqueue.h
-/Users/lilinchao/Desktop/ffmpeg-test/src/packetqueue.h
+/Users/lilinchao/Desktop/ffmpeg-demo/src/packetqueue.h
 framequeue.h
-/Users/lilinchao/Desktop/ffmpeg-test/src/framequeue.h
+/Users/lilinchao/Desktop/ffmpeg-demo/src/framequeue.h
 sys/time.h
 -
-IHandAudio.h
-/Users/lilinchao/Desktop/ffmpeg-test/src/IHandAudio.h
 
 /usr/local/include/SDL2/SDL.h
 SDL_main.h

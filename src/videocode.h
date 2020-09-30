@@ -9,8 +9,8 @@
 #include "packetqueue.h"
 #include "framequeue.h"
 #include <sys/time.h>
-#include "IHandAudio.h"
 
+class AudioState;
 #define AV_SYNC_THRESHOLD_MAX 0.1
 #define AV_SYNC_THRESHOLD_MIN 0.04
 #define SFM_REFRESH_EVENT (SDL_USEREVENT + 1)
@@ -37,7 +37,6 @@ public:
     void getYUV420PFrame(AVFrame *frame, FILE *fp);
     double synchronize(AVFrame *frame, double pts);
     static std::shared_ptr<VideoState> getInstance();
-    void addObserver(std::shared_ptr<IHandAudio> observe);
 
 public:
     //decode
@@ -66,7 +65,6 @@ public:
     std::thread th1;
     int videoindex;
     std::mutex syncmutex;
-    std::shared_ptr<IHandAudio> ob;
     FILE *fp;
 
     //encode

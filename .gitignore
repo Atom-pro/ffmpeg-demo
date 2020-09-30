@@ -1,3 +1,3 @@
-build
-cmake-build-debug
-mac
+build/*
+cmake-build-debug/*
+mac/*

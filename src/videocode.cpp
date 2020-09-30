@@ -3,6 +3,7 @@
 //
 
 #include "videocode.h"
+#include "play.h"
 
 char av_error[AV_ERROR_MAX_STRING_SIZE] = { 0 };
 
@@ -250,7 +251,7 @@ void VideoState::Display() {
             del = framelastpts;
 
         framelastpts = currentpts;
-        double refclock = ob->getAudioClock();
+        double refclock = AudioState::getInstance()->getAudioClock();
         double diff = currentpts - refclock;
         double threshold = (del > SYNC_THRESHOLD) ? del : SYNC_THRESHOLD;
         fprintf(stdout, "diff = %f, del = %f, currentpts = %f\n", diff, del, currentpts);
@@ -340,10 +341,6 @@ void VideoState::videodecoder() {
         }
         av_free_packet(&packet);
     }
-}
-
-void VideoState::addObserver(std::shared_ptr<IHandAudio> observe) {
-    ob = observe;
 }
 
 int VideoState::videodecode(AVFormatContext *format, int videoindex, char* url, std::string output) {

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/lilinchao/Desktop/ffmpeg-test/src/framequeue.cpp" "/Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug/CMakeFiles/demo.dir/src/framequeue.cpp.o"
-  "/Users/lilinchao/Desktop/ffmpeg-test/src/packetqueue.cpp" "/Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug/CMakeFiles/demo.dir/src/packetqueue.cpp.o"
-  "/Users/lilinchao/Desktop/ffmpeg-test/src/play.cpp" "/Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug/CMakeFiles/demo.dir/src/play.cpp.o"
-  "/Users/lilinchao/Desktop/ffmpeg-test/src/videocode.cpp" "/Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug/CMakeFiles/demo.dir/src/videocode.cpp.o"
+  "/Users/lilinchao/Desktop/ffmpeg-demo/src/framequeue.cpp" "/Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug/CMakeFiles/demo.dir/src/framequeue.cpp.o"
+  "/Users/lilinchao/Desktop/ffmpeg-demo/src/packetqueue.cpp" "/Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug/CMakeFiles/demo.dir/src/packetqueue.cpp.o"
+  "/Users/lilinchao/Desktop/ffmpeg-demo/src/play.cpp" "/Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug/CMakeFiles/demo.dir/src/play.cpp.o"
+  "/Users/lilinchao/Desktop/ffmpeg-demo/src/videocode.cpp" "/Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug/CMakeFiles/demo.dir/src/videocode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

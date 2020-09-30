@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lilinchao/Desktop/ffmpeg-test
+CMAKE_SOURCE_DIR = /Users/lilinchao/Desktop/ffmpeg-demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/demo.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/demo.dir/flags.make
 
 CMakeFiles/demo.dir/src/play.cpp.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/src/play.cpp.o: ../src/play.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo.dir/src/play.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/src/play.cpp.o -c /Users/lilinchao/Desktop/ffmpeg-test/src/play.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo.dir/src/play.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/src/play.cpp.o -c /Users/lilinchao/Desktop/ffmpeg-demo/src/play.cpp
 
 CMakeFiles/demo.dir/src/play.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo.dir/src/play.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lilinchao/Desktop/ffmpeg-test/src/play.cpp > CMakeFiles/demo.dir/src/play.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lilinchao/Desktop/ffmpeg-demo/src/play.cpp > CMakeFiles/demo.dir/src/play.cpp.i
 
 CMakeFiles/demo.dir/src/play.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/play.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lilinchao/Desktop/ffmpeg-test/src/play.cpp -o CMakeFiles/demo.dir/src/play.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lilinchao/Desktop/ffmpeg-demo/src/play.cpp -o CMakeFiles/demo.dir/src/play.cpp.s
 
 CMakeFiles/demo.dir/src/packetqueue.cpp.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/src/packetqueue.cpp.o: ../src/packetqueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demo.dir/src/packetqueue.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/src/packetqueue.cpp.o -c /Users/lilinchao/Desktop/ffmpeg-test/src/packetqueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demo.dir/src/packetqueue.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/src/packetqueue.cpp.o -c /Users/lilinchao/Desktop/ffmpeg-demo/src/packetqueue.cpp
 
 CMakeFiles/demo.dir/src/packetqueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo.dir/src/packetqueue.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lilinchao/Desktop/ffmpeg-test/src/packetqueue.cpp > CMakeFiles/demo.dir/src/packetqueue.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lilinchao/Desktop/ffmpeg-demo/src/packetqueue.cpp > CMakeFiles/demo.dir/src/packetqueue.cpp.i
 
 CMakeFiles/demo.dir/src/packetqueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/packetqueue.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lilinchao/Desktop/ffmpeg-test/src/packetqueue.cpp -o CMakeFiles/demo.dir/src/packetqueue.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lilinchao/Desktop/ffmpeg-demo/src/packetqueue.cpp -o CMakeFiles/demo.dir/src/packetqueue.cpp.s
 
 CMakeFiles/demo.dir/src/videocode.cpp.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/src/videocode.cpp.o: ../src/videocode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/demo.dir/src/videocode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/src/videocode.cpp.o -c /Users/lilinchao/Desktop/ffmpeg-test/src/videocode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/demo.dir/src/videocode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/src/videocode.cpp.o -c /Users/lilinchao/Desktop/ffmpeg-demo/src/videocode.cpp
 
 CMakeFiles/demo.dir/src/videocode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo.dir/src/videocode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lilinchao/Desktop/ffmpeg-test/src/videocode.cpp > CMakeFiles/demo.dir/src/videocode.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lilinchao/Desktop/ffmpeg-demo/src/videocode.cpp > CMakeFiles/demo.dir/src/videocode.cpp.i
 
 CMakeFiles/demo.dir/src/videocode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/videocode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lilinchao/Desktop/ffmpeg-test/src/videocode.cpp -o CMakeFiles/demo.dir/src/videocode.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lilinchao/Desktop/ffmpeg-demo/src/videocode.cpp -o CMakeFiles/demo.dir/src/videocode.cpp.s
 
 CMakeFiles/demo.dir/src/framequeue.cpp.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/src/framequeue.cpp.o: ../src/framequeue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/demo.dir/src/framequeue.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/src/framequeue.cpp.o -c /Users/lilinchao/Desktop/ffmpeg-test/src/framequeue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/demo.dir/src/framequeue.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/src/framequeue.cpp.o -c /Users/lilinchao/Desktop/ffmpeg-demo/src/framequeue.cpp
 
 CMakeFiles/demo.dir/src/framequeue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo.dir/src/framequeue.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lilinchao/Desktop/ffmpeg-test/src/framequeue.cpp > CMakeFiles/demo.dir/src/framequeue.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lilinchao/Desktop/ffmpeg-demo/src/framequeue.cpp > CMakeFiles/demo.dir/src/framequeue.cpp.i
 
 CMakeFiles/demo.dir/src/framequeue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/framequeue.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lilinchao/Desktop/ffmpeg-test/src/framequeue.cpp -o CMakeFiles/demo.dir/src/framequeue.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lilinchao/Desktop/ffmpeg-demo/src/framequeue.cpp -o CMakeFiles/demo.dir/src/framequeue.cpp.s
 
 # Object files for target demo
 demo_OBJECTS = \
@@ -133,7 +133,7 @@ demo: /usr/local/lib/libswresample.dylib
 demo: /usr/local/lib/libSDL2.dylib
 demo: /usr/local/lib/libSDL2main.a
 demo: CMakeFiles/demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -146,6 +146,6 @@ CMakeFiles/demo.dir/clean:
 .PHONY : CMakeFiles/demo.dir/clean
 
 CMakeFiles/demo.dir/depend:
-	cd /Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lilinchao/Desktop/ffmpeg-test /Users/lilinchao/Desktop/ffmpeg-test /Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug /Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug /Users/lilinchao/Desktop/ffmpeg-test/cmake-build-debug/CMakeFiles/demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lilinchao/Desktop/ffmpeg-demo /Users/lilinchao/Desktop/ffmpeg-demo /Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug /Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug /Users/lilinchao/Desktop/ffmpeg-demo/cmake-build-debug/CMakeFiles/demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/demo.dir/depend
 

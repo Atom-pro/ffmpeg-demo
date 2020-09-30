@@ -511,7 +511,6 @@ int AudioState::audio_decode(char **argv) {
     audioq = std::shared_ptr<PacketQueue>(new PacketQueue);
     begin();
     audio_play();
-    videostate->addObserver(shared_from_this());
     videostate->videodecode(pFormatCtx, videoindex, argv[1], output);
 }
 
