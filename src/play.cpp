@@ -151,7 +151,7 @@ void AudioState::audio_encode(char **argv) {
         return;
     }
     codecCtx->bit_rate = 64000;
-    codecCtx->sample_fmt = AV_SAMPLE_FMT_S16P;
+    codecCtx->sample_fmt = AV_SAMPLE_FMT_S16P; // planra 方式存储
     if (!check_sample_fmt(codec, codecCtx->sample_fmt)) {
         fprintf(stderr, "encode not support sample format: %s\n", av_get_sample_fmt_name(codecCtx->sample_fmt));
         return;
@@ -443,7 +443,7 @@ void AudioState::decode() {
         }
         if (packet.stream_index == audioindex) {
             audioq->put(&packet);
-            av_packet_unref(&packet);
+            av_packet_unref(&packet); // av_read_frame 调用时会在内部申请空间，在使用完之后必须手动进行释放
         } else if (packet.stream_index == videoindex) {
             videostate->videoq->put(&packet);
             av_packet_unref(&packet);
@@ -495,7 +495,7 @@ int AudioState::audio_decode(char **argv) {
         return -1;
     }
 
-    ret = avcodec_open2(pCodecCtx, pCodec, nullptr);
+    ret = avcodec_open2(pCodecCtx, pCodec, nullptr); // 初始化编解码器上下文，调用 codec->init 进行初始化
     if (ret < 0) {
         fprintf(stderr, "avcodec_open2 failed: %s\n", averr2str(ret));
         return -1;
